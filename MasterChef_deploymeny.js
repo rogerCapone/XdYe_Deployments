@@ -7,7 +7,7 @@ module.exports = async function (deployer, _network, addresses) {
   await deployer.deploy(XdYeToken);
   const xdyeToken = await XdYeToken.deployed();
   
-  const startBlock = 1651184573; 
+  const startBlock = 0; 
   const endBlock =  1659218400;
 
   await deployer.deploy(
