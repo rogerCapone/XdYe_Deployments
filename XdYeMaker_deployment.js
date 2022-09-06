@@ -30,9 +30,7 @@ module.exports = async function (deployer, _network, addresses) {
      factory.address,
      xdyeBar.address,
      xdyeToken.address, 
-     weth.address,
-     admin,
-     admin
+     weth.address
    );
   const xdyeMaker = await XdYeMaker.deployed();
 
